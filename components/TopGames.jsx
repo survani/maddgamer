@@ -28,7 +28,7 @@ const TopGames = () => {
 							/>
 						</div>
 						<div className='flex-grow ml-4'>
-							<h6>{game.name}</h6>
+							<h6 className='text-blue-900 font-semibold'>{game.name}</h6>
 							<p className='text-gray-500 font-xs'>
 								{moment(game.released).format("MMM DD, YYYY")}
 							</p>

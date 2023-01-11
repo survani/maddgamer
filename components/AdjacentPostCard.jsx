@@ -25,7 +25,7 @@ const AdjacentPostCard = ({ post, position }) => (
 			<div className='absolute arrow-btn bottom-5 text-center py-3 cursor-pointer bg-pink-600 left-4 rounded-full'>
 				<svg
 					xmlns='http://www.w3.org/2000/svg'
-					className='h-6 w-6 text-white w-full'
+					className='h-6 text-white w-full'
 					fill='none'
 					viewBox='0 0 24 24'
 					stroke='currentColor'
@@ -43,7 +43,7 @@ const AdjacentPostCard = ({ post, position }) => (
 			<div className='absolute arrow-btn bottom-5 text-center py-3 cursor-pointer bg-pink-600 right-4 rounded-full'>
 				<svg
 					xmlns='http://www.w3.org/2000/svg'
-					className='h-6 w-6 text-white w-full'
+					className='h-6 w-full text-white'
 					fill='none'
 					viewBox='0 0 24 24'
 					stroke='currentColor'
