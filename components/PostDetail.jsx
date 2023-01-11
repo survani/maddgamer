@@ -18,6 +18,10 @@ const PostDetail = ({ post }) => {
 			if (obj.underline) {
 				modifiedText = <u key={index}>{text}</u>;
 			}
+			//Need to see how to implement this...
+			if (obj.unorderedlists) {
+				modifiedText = <li key={index}>{text}</li>;
+			}
 		}
 
 		switch (type) {
