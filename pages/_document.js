@@ -17,7 +17,10 @@ class MyDocument extends Document {
 							content='width=device-width, initial-scale=1'
 						></meta>
 						<title>MaddGamer</title>
-						<meta name='description' content='Gaming news!'></meta>
+						<meta
+							name='description'
+							content='A video game news website focus on delivering daily gaming news.'
+						></meta>
 						<meta name='author' content='Maddgamer'></meta>
 						<meta property='og:title' content='MaddGamer'></meta>
 						<meta property='og:type' content='website'></meta>
