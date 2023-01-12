@@ -11,8 +11,7 @@ const PrivacyPolicy = () => {
 				</h1>
 
 				<p class='privacy-policy-p'>
-					This Privacy Policy describes the policies of MaddGamer, 5077 Rodeo
-					Circle, CA 94531, United States of America (the), email:
+					This Privacy Policy describes the policies of MaddGamer (the), email:
 					giovaniportal@gmail.com, phone: 9254282086 on the collection, use and
 					disclosure of your information that we collect when you use our
 					website ( https://www.maddgamer.com ). (the “Service”). By accessing
