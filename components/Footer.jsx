@@ -8,7 +8,8 @@ const Footer = () => {
 				<a href='https://flowbite.com/' class='hover:underline'>
 					MaddGamer
 				</a>
-				. All Rights Reserved.
+				. All rights reserved. No part of this website and its content may be
+				reproduced without the permission of the copyright holder.
 			</span>
 			<ul class='flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0'>
 				<li>
