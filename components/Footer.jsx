@@ -21,7 +21,7 @@ const Footer = () => {
 				</li>
 				<li>
 					<a
-						href='http://localhost:3000/privacypolicy'
+						href='https://www.maddgamer.com/privacypolicy'
 						class='mr-4 hover:underline md:mr-6'
 					>
 						Privacy Policy
