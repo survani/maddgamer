@@ -34,6 +34,11 @@ class MyDocument extends Document {
 						<link rel='icon' href='/favicon.svg' type='image/svg+xml'></link>
 						<link rel='apple-touch-icon' href='/apple-touch-icon.png'></link>
 						<link rel='stylesheet' href='css/styles.css?v=1.0'></link>
+						<script
+							id='cookieyes'
+							type='text/javascript'
+							src='https://cdn-cookieyes.com/client_data/766008d15ca89bece42af12c/script.js'
+						></script>
 					</>
 				</Head>
 				<body>
