@@ -29,7 +29,7 @@ const Footer = () => {
 				</li>
 				<li>
 					<a
-						href='http://localhost:3000/cookiepolicy'
+						href='https://www.maddgamer.com/cookiepolicy'
 						class='mr-4 hover:underline md:mr-6'
 					>
 						Cookie Policy
