@@ -20,7 +20,10 @@ const Footer = () => {
 					</a>
 				</li>
 				<li>
-					<a href='#' class='mr-4 hover:underline md:mr-6'>
+					<a
+						href='http://localhost:3000/privacypolicy'
+						class='mr-4 hover:underline md:mr-6'
+					>
 						Privacy Policy
 					</a>
 				</li>
