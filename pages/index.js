@@ -1,4 +1,10 @@
-import { Categories, PostCard, PostWidget, TopGames } from "../components";
+import {
+	Categories,
+	GameDeals,
+	PostCard,
+	PostWidget,
+	TopGames,
+} from "../components";
 import { FeaturedPosts } from "../sections/index";
 import { getPosts } from "../services";
 
@@ -16,6 +22,7 @@ export default function Home({ posts }) {
 					<div className='lg:sticky relative top-8'>
 						<TopGames />
 						<PostWidget />
+						<GameDeals />
 						<Categories />
 					</div>
 				</div>

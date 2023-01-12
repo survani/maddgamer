@@ -1,5 +1,6 @@
 import axios from "axios";
 import moment from "moment/moment";
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 const NEXT_PUBLIC_RAWG_API = process.env.NEXT_PUBLIC_RAWG_API;
 const TopGames = () => {
@@ -7,7 +8,6 @@ const TopGames = () => {
 
 	useEffect(() => {
 		axios.get(`${NEXT_PUBLIC_RAWG_API}`).then((response) => {
-			console.log("topgames", response.data.results);
 			setTopGames(response.data.results);
 		});
 	}, []);
@@ -35,6 +35,12 @@ const TopGames = () => {
 						</div>
 					</div>
 				))}
+				<p>
+					Powered by:{" "}
+					<Link href='https://rawg.io/apidocs' className='font-semibold'>
+						RAWG
+					</Link>
+				</p>
 			</div>
 		</>
 	);
