@@ -11,8 +11,14 @@ const CategoryPost = ({ posts }) => {
 		return <Loader />;
 	}
 
+	console.log("what we got here", posts.node);
+
 	return (
 		<div className='container mx-auto px-10 mb-8'>
+			{/* I WILL ADD THIS LATER */}
+			{/* <div className=' bg-white mb-5 p-5 rounded-md'>
+				<h4 className='text-blue-900 font-semibold text-2xl'>PC News</h4>
+			</div> */}
 			<div className='grid grid-cols-1 lg:grid-cols-12 gap-12'>
 				<div className='col-span-1 lg:col-span-8'>
 					{posts.map((post, index) => (

@@ -111,7 +111,6 @@ const PostDetail = ({ post }) => {
 							</span>
 						</div>
 					</div>
-
 					{post.content.raw.children.map((typeObj, index) => {
 						const children = typeObj.children.map((item, itemindex) =>
 							getContentFragment(itemindex, item.text, item)
