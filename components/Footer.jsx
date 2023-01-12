@@ -28,8 +28,11 @@ const Footer = () => {
 					</a>
 				</li>
 				<li>
-					<a href='#' class='mr-4 hover:underline md:mr-6'>
-						Terms of Service
+					<a
+						href='http://localhost:3000/cookiepolicy'
+						class='mr-4 hover:underline md:mr-6'
+					>
+						Cookie Policy
 					</a>
 				</li>
 			</ul>
