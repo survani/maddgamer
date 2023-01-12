@@ -1,14 +1,16 @@
-import React from 'react';
+import { Analytics } from "@vercel/analytics/react";
+import React from "react";
 
-import '../styles/globals.scss';
-import { Layout } from '../components';
+import { Layout } from "../components";
+import "../styles/globals.scss";
 
 function MyApp({ Component, pageProps }) {
-  return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
-  );
+	return (
+		<Layout>
+			<Component {...pageProps} />
+			<Analytics />
+		</Layout>
+	);
 }
 
 export default MyApp;
