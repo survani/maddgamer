@@ -73,6 +73,14 @@ const PostDetail = ({ post }) => {
 						))}
 					</ul>
 				);
+			case "list":
+				return (
+					<li key={index} className='mb-1'>
+						{modifiedText.map((item, i) => (
+							<React.Fragment key={i}>{item}</React.Fragment>
+						))}
+					</li>
+				);
 
 			case "image":
 				return (
