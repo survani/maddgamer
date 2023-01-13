@@ -33,6 +33,14 @@ const PostDetail = ({ post }) => {
 						))}
 					</h3>
 				);
+			case "heading-five":
+				return (
+					<h5 key={index} className='text-sm font-semibold mb-4'>
+						{modifiedText.map((item, i) => (
+							<React.Fragment key={i}>{item}</React.Fragment>
+						))}
+					</h5>
+				);
 			case "paragraph":
 				return (
 					<p key={index} className='mb-8'>
