@@ -33,6 +33,14 @@ const PostDetail = ({ post }) => {
 						))}
 					</h3>
 				);
+			case "heading-four":
+				return (
+					<h4 key={index} className='text-md font-semibold mb-4'>
+						{modifiedText.map((item, i) => (
+							<React.Fragment key={i}>{item}</React.Fragment>
+						))}
+					</h4>
+				);
 			case "heading-five":
 				return (
 					<h5 key={index} className='text-sm font-semibold mb-4'>
@@ -40,14 +48,6 @@ const PostDetail = ({ post }) => {
 							<React.Fragment key={i}>{item}</React.Fragment>
 						))}
 					</h5>
-				);
-			case "paragraph":
-				return (
-					<p key={index} className='mb-8'>
-						{modifiedText.map((item, i) => (
-							<React.Fragment key={i}>{item}</React.Fragment>
-						))}
-					</p>
 				);
 			case "heading-four":
 				return (
@@ -57,6 +57,23 @@ const PostDetail = ({ post }) => {
 						))}
 					</h4>
 				);
+			case "paragraph":
+				return (
+					<p key={index} className='mb-8'>
+						{modifiedText.map((item, i) => (
+							<React.Fragment key={i}>{item}</React.Fragment>
+						))}
+					</p>
+				);
+			case "unordered-list":
+				return (
+					<ul key={index} className='mb-1'>
+						{modifiedText.map((item, i) => (
+							<React.Fragment key={i}>{item}</React.Fragment>
+						))}
+					</ul>
+				);
+
 			case "image":
 				return (
 					<img
