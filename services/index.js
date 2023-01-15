@@ -75,7 +75,7 @@ export const getPostDetails = async (slug) => {
 				slug
 				subline
 				content {
-					raw
+					html
 				}
 				categories {
 					name
