@@ -11,7 +11,7 @@ const Footer = () => {
 				. All rights reserved. No part of this website and its content may be
 				reproduced without the permission of the copyright holder.
 			</span>
-			<ul class='flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0'>
+			<ul class='flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0 list-none'>
 				<li>
 					<a
 						href='https://app.pulsetic.com/status/HSy6N6cm'
