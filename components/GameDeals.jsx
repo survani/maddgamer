@@ -9,7 +9,6 @@ const GameDeals = () => {
 
 	useEffect(() => {
 		axios.get(`${GAME_DEALS_API}`).then((response) => {
-			console.log("gamedeals", response.data);
 			setGameDeals(response.data);
 		});
 	}, []);

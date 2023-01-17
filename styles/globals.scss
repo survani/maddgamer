@@ -34,11 +34,11 @@ body {
 .adjacent-post{
   & .arrow-btn{
     transition: width 300ms ease;
-    width: 50px;
+    width: 30px;
   }
   &:hover{
     & .arrow-btn{
-      width: 60px;
+      width: 35px;
     }
   }
 }
@@ -46,9 +46,9 @@ body {
 .react-multi-carousel-list {
   & .arrow-btn{
     transition: width 300ms ease;
-    width: 50px;
+    width: 25px;
     &:hover{
-      width: 60px;
+      width: 30px;
     }
   }
   
@@ -65,5 +65,9 @@ a {
 
 ul {
   list-style: disc;
+  padding: 1rem;
+}
+
+table {
   padding: 1rem;
 }

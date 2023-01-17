@@ -4,7 +4,7 @@ import React from "react";
 
 const AdjacentPostCard = ({ post, position }) => (
 	<>
-		<h3 className='text-white font-semibold text-lg '>See More!</h3>
+		<h3 className='text-white font-semibold text-xl mb-2'>Check them out!</h3>
 		<div
 			className='absolute rounded-lg bg-center bg-no-repeat bg-cover shadow-md inline-block w-full h-72'
 			style={{ backgroundImage: `url('${post.featuredImage.url}')` }}
@@ -22,7 +22,7 @@ const AdjacentPostCard = ({ post, position }) => (
 			<span className='z-10 cursor-pointer absolute w-full h-full' />
 		</Link>
 		{position === "LEFT" && (
-			<div className='absolute arrow-btn bottom-5 text-center py-3 cursor-pointer bg-pink-600 left-4 rounded-full'>
+			<div className='absolute arrow-btn bottom-5 text-center py-3 cursor-pointer bg-blue-600 left-4 rounded-full'>
 				<svg
 					xmlns='http://www.w3.org/2000/svg'
 					className='h-6 text-white w-full'
@@ -40,7 +40,7 @@ const AdjacentPostCard = ({ post, position }) => (
 			</div>
 		)}
 		{position === "RIGHT" && (
-			<div className='absolute arrow-btn bottom-5 text-center py-3 cursor-pointer bg-pink-600 right-4 rounded-full'>
+			<div className='absolute arrow-btn bottom-5 text-center py-3 cursor-pointer bg-blue-600 right-4 rounded-full'>
 				<svg
 					xmlns='http://www.w3.org/2000/svg'
 					className='h-6 w-full text-white'
