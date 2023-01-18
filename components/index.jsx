@@ -8,6 +8,7 @@ export { default as Footer } from "./Footer";
 export { default as GameDeals } from "./GameDeals";
 export { default as Layout } from "./Layout";
 export { default as Loader } from "./Loader";
+export { default as OtherNews } from "./OtherNews";
 export { default as PostCard } from "./PostCard";
 export { default as PostDetail } from "./PostDetail";
 export { default as PostWidget } from "./PostWidget";

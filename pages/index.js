@@ -1,6 +1,7 @@
 import {
 	Categories,
 	GameDeals,
+	OtherNews,
 	PostCard,
 	PostWidget,
 	TopGames,

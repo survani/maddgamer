@@ -27,7 +27,7 @@ class MyDocument extends Document {
 						<meta property='og:url' content='https://www.maddgamer.com/'></meta>
 						<meta
 							property='og:description'
-							content='A simple HTML5 Template for new projects.'
+							content='A video game news website focus on delivering daily gaming news.'
 						></meta>
 						<meta property='og:image' content='image.png'></meta>
 						<link rel='icon' href='/favicon.ico'></link>
