@@ -18,7 +18,7 @@ const PostCard = ({ post }) => {
 							className='object-top absolute h-80 w-full object-cover  shadow-lg rounded-t-lg lg:rounded-lg'
 						/>
 					</Link>
-					<p className='absolute w-1/3 py-1 top-0 left-0 rounded-tl-lg text-center text-xl bg-blue-600 text-white'>
+					<p className='absolute w-1/2 py-1 top-0 left-0 rounded-tl-lg text-center text-md bg-blue-600 text-white lg:w-1/3 lg:text-xl'>
 						{post.subline}
 					</p>
 					<span className='absolute p-2 bg-slate-800 top-[18rem] left-0 text-white text-sm rounded-bl-lg'>
@@ -29,7 +29,7 @@ const PostCard = ({ post }) => {
 					<Link href={`/post/${post.slug}`}>{post.title}</Link>
 				</h1>
 
-				<p className='text-lg text-gray-700 font-normal px-2 mb-1'>
+				<p className='text-sm text-gray-700 font-normal px-2 mb-1 lg:text-lg'>
 					{post.excerpt}
 				</p>
 			</div>
