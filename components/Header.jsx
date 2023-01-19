@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
-
 import Link from "next/link";
+import React, { useEffect, useState } from "react";
 import { getCategories } from "../services";
+import TopHeader from "./TopHeader";
 
 const Header = () => {
 	const [categories, setCategories] = useState([]);
@@ -14,6 +14,7 @@ const Header = () => {
 
 	return (
 		<div className='container-xl w-full mx-auto mb-8'>
+			<TopHeader />
 			<div className=' w-full inline-block py-4 px-10 bg-blue-900'>
 				<div className='md:float-left block'>
 					<Link href='/'>

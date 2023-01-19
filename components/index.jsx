@@ -13,3 +13,4 @@ export { default as PostCard } from "./PostCard";
 export { default as PostDetail } from "./PostDetail";
 export { default as PostWidget } from "./PostWidget";
 export { default as TopGames } from "./TopGames";
+export { default as TopHeader } from "./TopHeader";
