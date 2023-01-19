@@ -10,7 +10,6 @@ const OtherNews = () => {
 		axios.get(`${NEXT_PUBLIC_NEWS_API}`).then((response) => {
 			//only shows 5 articles
 			response.data.articles.splice(5);
-			console.log(response.data.articles);
 			setOtherNews(response.data.articles);
 		});
 	}, []);

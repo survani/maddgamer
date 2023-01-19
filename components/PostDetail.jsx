@@ -1,15 +1,26 @@
-import React from "react";
-
 import moment from "moment";
-import { useState } from "react";
+import React, { useState } from "react";
+import readingTime from "reading-time";
+//sanitizes html data keeps the site safe don't delete
+import xss from "xss";
 
 const PostDetail = ({ post }) => {
+	//gives us the time it takes to read each article.
+	const howLongToRead = readingTime(post.content.html);
 	return (
 		<>
 			<div className='bg-white shadow-lg rounded-lg lg:p-8 pb-12 mb-8'>
-				<h1 className='mb-2 text-2xl font-semibold p-5 lg:mb-8 lg:text-3xl lg:p-1'>
+				<h1 className='mb-2 text-2xl font-semibold p-5 lg:mb-3 lg:text-3xl lg:p-1'>
 					{post.title}
 				</h1>
+				<div className='font-medium text-gray-700 flex'>
+					<p className=' p-2 bg-slate-800 text-white text-sm rounded-md mr-2'>
+						{moment(post.createdAt).format("MMM DD, YYYY")}
+					</p>
+					<p className='p-2 bg-slate-800 text-white text-sm rounded-md m-1/2'>
+						{howLongToRead.text}
+					</p>
+				</div>
 				<div className='relative overflow-hidden shadow-md mb-6'>
 					<img
 						src={post.featuredImage.url}
@@ -18,40 +29,11 @@ const PostDetail = ({ post }) => {
 					/>
 				</div>
 				<div className='px-4 lg:px-0'>
-					<div className='flex items-center mb-8 w-full'>
-						<div className='hidden md:flex justify-center lg:mb-0 lg:w-auto mr-8 items-center'>
-							<img
-								alt={post.author.name}
-								height='30px'
-								width='30px'
-								className='align-middle rounded-full'
-								src={post.author.photo.url}
-							/>
-							<p className='inline align-middle text-gray-700 ml-2 font-medium text-lg'>
-								{post.author.name}
-							</p>
-						</div>
-						<div className='font-medium text-gray-700'>
-							<svg
-								xmlns='http://www.w3.org/2000/svg'
-								className='h-6 w-6 inline mr-2 text-pink-500'
-								fill='none'
-								viewBox='0 0 24 24'
-								stroke='currentColor'
-							>
-								<path
-									strokeLinecap='round'
-									strokeLinejoin='round'
-									strokeWidth='2'
-									d='M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z'
-								/>
-							</svg>
-							<span className='align-middle'>
-								{moment(post.createdAt).format("MMM DD, YYYY")}
-							</span>
-						</div>
-					</div>
-					<div dangerouslySetInnerHTML={{ __html: post.content.html }}></div>
+					<div
+						dangerouslySetInnerHTML={{
+							__html: xss(post.content.html),
+						}}
+					></div>
 				</div>
 			</div>
 		</>

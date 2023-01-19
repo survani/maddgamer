@@ -71,3 +71,11 @@ ul {
 table {
   padding: 1rem;
 }
+
+@layer base {
+  p { 
+    margin-bottom: 1rem;
+  }
+}
+
+
