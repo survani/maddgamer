@@ -5,6 +5,9 @@ import readingTime from "reading-time";
 import xss from "xss";
 
 const PostDetail = ({ post }) => {
+	const styleObj = {
+		fontSize: "1.15rem",
+	};
 	//gives us the time it takes to read each article.
 	const howLongToRead = readingTime(post.content.html);
 	return (
@@ -33,6 +36,7 @@ const PostDetail = ({ post }) => {
 						dangerouslySetInnerHTML={{
 							__html: xss(post.content.html),
 						}}
+						style={styleObj}
 					></div>
 				</div>
 			</div>
