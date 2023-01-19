@@ -13,7 +13,7 @@ const PostDetail = ({ post }) => {
 				<h1 className='mb-2 text-2xl font-semibold p-5 lg:mb-3 lg:text-3xl lg:p-1'>
 					{post.title}
 				</h1>
-				<div className='font-medium text-gray-700 flex'>
+				<div className='font-medium text-gray-700 flex ml-2 lg:m-0 '>
 					<p className=' p-2 bg-slate-800 text-white text-sm rounded-md mr-2'>
 						{moment(post.createdAt).format("MMM DD, YYYY")}
 					</p>
