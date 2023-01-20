@@ -13,15 +13,13 @@ const Header = () => {
 	}, []);
 
 	return (
-		<div className='mb-8'>
+		<div className='mb-8 bg-blue-900'>
 			<TopHeader />
-			<div className='flex flex-row items-center w-full justify-center p-2 bg-blue-900'>
+			<div className='flex flex-row items-center justify-center lg:justify-between w-full lg:w-3/4 md:w-4/5 m-auto py-2 '>
 				<Link href='/'>
-					<h1 className='font-Manrope text-white font-extrabold text-5xl'>
-						MDG
-					</h1>
+					<img src='/MDGLogo.png' className='h-10' />
 				</Link>
-				<div className='flex hidden lg:block'>
+				<div className='flex hidden lg:block md:block text-sm lg:text-[16px]'>
 					{categories.map((category, index) => (
 						<Link key={index} href={`/category/${category.slug}`}>
 							<span className='md:float-right mt-3 text-white ml-4 font-semibold cursor-pointer'>
