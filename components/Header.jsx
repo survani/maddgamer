@@ -13,18 +13,15 @@ const Header = () => {
 	}, []);
 
 	return (
-		<div className='container-xl w-full mx-auto mb-8'>
+		<div className='mb-8'>
 			<TopHeader />
-			<div className=' w-full inline-block py-4 px-10 bg-blue-900'>
-				<div className='md:float-left block'>
-					<Link href='/'>
-						<img
-							src='maddgamerlogo.webp'
-							className='cursor-pointer w-[120px]'
-						/>
-					</Link>
-				</div>
-				<div className='hidden md:float-left md:contents'>
+			<div className='flex flex-row items-center w-full justify-center p-2 bg-blue-900'>
+				<Link href='/'>
+					<h1 className='font-Manrope text-white font-extrabold text-5xl'>
+						MDG
+					</h1>
+				</Link>
+				<div className='flex hidden lg:block'>
 					{categories.map((category, index) => (
 						<Link key={index} href={`/category/${category.slug}`}>
 							<span className='md:float-right mt-3 text-white ml-4 font-semibold cursor-pointer'>
