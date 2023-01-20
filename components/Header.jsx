@@ -19,7 +19,7 @@ const Header = () => {
 				<Link href='/'>
 					<img src='/MDGLogo.png' className='h-10' />
 				</Link>
-				<div className='flex hidden lg:block md:block text-sm lg:text-[16px]'>
+				<div className='lg:flex hidden md:block text-sm lg:text-[16px]'>
 					{categories.map((category, index) => (
 						<Link key={index} href={`/category/${category.slug}`}>
 							<span className='md:float-right mt-3 text-white ml-4 font-semibold cursor-pointer'>

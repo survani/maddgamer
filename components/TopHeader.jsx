@@ -3,9 +3,8 @@ import React from "react";
 
 const TopHeader = () => {
 	return (
-		<div className='bg-white'>
-			<p className='mb-0 lg:ml-10 md:ml-10 text-sm lg:text-[16px]'>
-				<span className='font-semibold text-blue-900'> Trending: </span>
+		<div className='bg-white hidden lg:flex justify-center'>
+			<p className='mb-0 lg:ml-10 md:ml-10 text-sm lg:text-[14px]'>
 				<Link
 					href='https://www.maddgamer.com/post/mw2-and-warzone-20-season-2-delayed-plus-more'
 					className='hover:text-blue-800 hover:underline'
