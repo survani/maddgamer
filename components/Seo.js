@@ -17,7 +17,7 @@ const Seo = ({ post }) => {
 				description: "Covering all the latest gaming news!",
 				images: [
 					{
-						url: `${post.featuredImage.url ? post.featuredImage.url : "Hi"}`,
+						url: ``,
 						width: 800,
 						height: 600,
 						alt: "MaddGamer",
