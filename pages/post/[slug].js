@@ -15,6 +15,7 @@ import { AdjacentPosts } from "../../sections";
 import { getPostDetails, getPosts } from "../../services";
 
 const PostDetails = ({ post }) => {
+	console.log(post.featuredImage.url);
 	const router = useRouter();
 
 	if (router.isFallback) {

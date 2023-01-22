@@ -9,38 +9,7 @@ class MyDocument extends Document {
 	render() {
 		return (
 			<Html>
-				<Head>
-					<>
-						<meta charset='utf-8'></meta>
-						<meta
-							name='viewport'
-							content='width=device-width, initial-scale=1'
-						></meta>
-						<title>MaddGamer</title>
-						<meta
-							name='description'
-							content='A video game news website focus on delivering daily gaming news.'
-						></meta>
-						<meta name='author' content='Maddgamer'></meta>
-						<meta property='og:title' content='MaddGamer'></meta>
-						<meta property='og:type' content='website'></meta>
-						<meta property='og:url' content='https://www.maddgamer.com/'></meta>
-						<meta
-							property='og:description'
-							content='A video game news website focus on delivering daily gaming news.'
-						></meta>
-						<meta property='og:image' content='image.png'></meta>
-						<link rel='icon' href='/favicon.ico'></link>
-						<link rel='icon' href='/favicon.svg' type='image/svg+xml'></link>
-						<link rel='apple-touch-icon' href='/apple-touch-icon.png'></link>
-						<link rel='stylesheet' href='css/styles.css?v=1.0'></link>
-						<script
-							id='cookieyes'
-							type='text/javascript'
-							src='https://cdn-cookieyes.com/client_data/766008d15ca89bece42af12c/script.js'
-						></script>
-					</>
-				</Head>
+				<Head></Head>
 				<body>
 					<Main />
 					<NextScript />
