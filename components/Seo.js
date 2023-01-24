@@ -17,7 +17,7 @@ const Seo = ({ post }) => {
 				description: "Covering all the latest gaming news!",
 				images: [
 					{
-						url: "/BG.webp",
+						url: "https://media.graphassets.com/KPOe0XxRmCL8Hzpr1dDP",
 						width: 800,
 						height: 600,
 						alt: "MaddGamer",
