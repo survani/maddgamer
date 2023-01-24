@@ -1,31 +1,34 @@
 import { NextSeo } from "next-seo";
+import { title } from "process";
 import React from "react";
 
 const Seo = ({ post }) => {
+	const titles = `MaddGamer - ${post.title}`;
+	console.log(titles);
+
 	return (
 		<NextSeo
-			title={post.title}
-			titleTemplate={post.title}
-			defaultTitle={post.title}
+			title={titles}
+			titleTemplate={titles}
+			defaultTitle={titles}
 			description={post.excerpt}
 			openGraph={{
 				type: "website",
 				locale: "en_IE",
-				siteName: "MaddGamer",
+				siteName: titles,
 				url: "https://www.maddgamer.com/",
-				title: "MaddGamer",
+				title: titles,
 				description:
 					"A video game news website covering all the latest news in the industry. Follow us for more!",
 				images: [
 					{
 						url: post.featuredImage.url,
-						width: 800,
-						height: 600,
-						alt: "MaddGamer",
+						width: 1200,
+						height: 630,
+						alt: "MaddGamer Gaming News",
 						type: "image/webp",
 					},
 				],
-				siteName: "MaddGamer",
 			}}
 			twitter={{
 				handle: "@maddgamernews",
