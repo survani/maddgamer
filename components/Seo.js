@@ -15,7 +15,7 @@ const Seo = ({ post }) => {
 				url: "https://www.maddgamer.com/",
 				title: "MaddGamer",
 				description:
-					"A video game news covering all the latest news in the industry. Follow us for more!",
+					"A video game news website covering all the latest news in the industry. Follow us for more!",
 				images: [
 					{
 						url: post.featuredImage.url,
