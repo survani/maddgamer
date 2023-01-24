@@ -17,11 +17,11 @@ const Seo = ({ post }) => {
 				description: "Covering all the latest gaming news!",
 				images: [
 					{
-						url: ``,
+						url: "/BG.webp",
 						width: 800,
 						height: 600,
 						alt: "MaddGamer",
-						type: "image/jpeg",
+						type: "image/webp",
 					},
 				],
 				siteName: "MaddGamer",
