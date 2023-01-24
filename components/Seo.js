@@ -14,10 +14,11 @@ const Seo = ({ post }) => {
 				siteName: "MaddGamer",
 				url: "https://www.maddgamer.com/",
 				title: "MaddGamer",
-				description: "Covering all the latest gaming news!",
+				description:
+					"A video game news covering all the latest news in the industry. Follow us for more!",
 				images: [
 					{
-						url: "https://media.graphassets.com/KPOe0XxRmCL8Hzpr1dDP",
+						url: post.featuredImage.url,
 						width: 800,
 						height: 600,
 						alt: "MaddGamer",
