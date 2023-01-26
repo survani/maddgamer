@@ -10,6 +10,7 @@ import {
 	PostDetail,
 	PostWidget,
 } from "../../components";
+import DisqusComments from "../../components/DisqusComments";
 import Seo from "../../components/Seo";
 import { AdjacentPosts } from "../../sections";
 import { getPostDetails, getPosts } from "../../services";
@@ -28,6 +29,7 @@ const PostDetails = ({ post }) => {
 				<div className='grid grid-cols-1 lg:grid-cols-12 gap-12'>
 					<div className='col-span-1 lg:col-span-8'>
 						<PostDetail post={post} />
+						<DisqusComments post={post} />
 						<Author author={post.author} />
 						<AdjacentPosts slug={post.slug} createdAt={post.createdAt} />
 						{/* <CommentsForm slug={post.slug} />
