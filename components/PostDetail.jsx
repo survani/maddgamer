@@ -23,6 +23,9 @@ const PostDetail = ({ post }) => {
 					<p className='p-2 bg-slate-800 text-white text-sm rounded-md m-1/2'>
 						{howLongToRead.text}
 					</p>
+					<p className='p-2 bg-slate-800 text-white text-sm rounded-md m-1/2 ml-2'>
+						{post.subline}
+					</p>
 				</div>
 				<div className='relative overflow-hidden shadow-md mb-6'>
 					<img
