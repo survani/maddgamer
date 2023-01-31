@@ -9,7 +9,6 @@ import {
 	Loader,
 	PostDetail,
 	PostWidget,
-	Reactions,
 } from "../../components";
 import Seo from "../../components/Seo";
 import { AdjacentPosts } from "../../sections";
@@ -41,7 +40,6 @@ const PostDetails = ({ post }) => {
 								slug={post.slug}
 								categories={post.categories.map((category) => category.slug)}
 							/>
-							<Reactions />
 							<Categories />
 						</div>
 					</div>
