@@ -115,7 +115,7 @@ const Header = () => {
 									/>
 								</Link>
 
-								<div className='d-block d-lg-none'>
+								<div className='d-block d-lg-none '>
 									<button
 										className='search-toggle'
 										aria-label='Search Toggle'
@@ -145,7 +145,7 @@ const Header = () => {
 									</button>
 								</div>
 
-								<div className='collapse navbar-collapse' id='navHeader'>
+								<div className='collapse navbar-collapse ' id='navHeader'>
 									<div
 										className={`w-100 d-block d-lg-none mb-4 ms-1 sticky-top animate`}
 									>
@@ -177,7 +177,7 @@ const Header = () => {
 											</svg>
 										</button>
 									</div>
-									<ul className={`navbar-nav ms-auto animate`}>
+									<ul className={`navbar-nav ms-auto animate `}>
 										{Menu.mainMenu.map((n, i) =>
 											n.submenu ? (
 												<li

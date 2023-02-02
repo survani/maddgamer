@@ -94,7 +94,7 @@ export default function PostPage({
 									width={`1020`}
 									height={`660`}
 								/>
-								<div className='subline-info flex  lg:justify-center mt-2 text-[10px] md:text-lg lg:text-lg'>
+								<div className='subline-info'>
 									<p className='mb-4 text-muted mx-0'>
 										<span
 											className='d-inline-block'
