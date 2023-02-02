@@ -1,0 +1,27 @@
+{
+  "mainMenu": [
+    {
+      "name": "Modern Warfare 2",
+      "link": "/categories/modern-warfare-2"
+      
+    },
+    {
+      "name": "Warzone 2",
+      "link": "/categories/warzone-2"
+    },
+    {
+      "name": "DMZ",
+      "link": "/categories/dmz"
+    }
+  ],
+  "footerMenu": [
+    {
+      "name": "Cookie Policy",
+      "link": "/cookie-policy"
+    },
+    {
+      "name": "Privacy policy",
+      "link": "/privacy"
+    }
+  ]
+}

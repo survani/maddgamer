@@ -1,0 +1,25 @@
+{
+  "metaData": {
+    "title" : "MaddGamer | #1 Source for Modern Warfare 2",
+    "description" : "MaddGamer | #1 Source for Modern Warfare 2",
+    "author" : "MaddGamer",
+    "keyword" : "callofduty, modernwarfare2, warzone2,DMZ,MaddGamer",
+    "ogImage" : "/images/ogimage.jpg"
+  },
+  "baseURL" : "https://maddgamer.com",
+  "logo" : "/images/logo.webp",
+  "logoText" : "MaddGamer",
+  "favicon" : "/images/favicon.png",
+  "postPerPage" : 6,
+  "homeTwoPostPerPage" : 4,
+
+  "copyright" : "© 2023 MaddGamer. All rights reserved.",
+
+  "socialLinks" : [
+    {
+      "name": "Twitter",
+      "icon": "BsTwitter",
+      "link": "https://twitter.com/maddgamernews"
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 import axios from "axios";
 import moment from "moment/moment";
+import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 const NEXT_PUBLIC_RAWG_API = process.env.NEXT_PUBLIC_RAWG_API;
@@ -16,31 +17,48 @@ const TopGames = () => {
 		<>
 			<div className='bg-white shadow-lg rounded-lg p-8 pb-12 mb-8'>
 				<h3 className='text-xl mb-8 font-semibold border-b pb-4'>
-					Upcoming Games
+					Warzone Maps
 				</h3>
-				{topGames.map((game, index) => (
-					<div key={index} className='flex items-center w-full mb-4'>
-						<div className='w-16 flex-none'>
-							<img
-								alt={game.name}
-								className='rounded h-14 w-full object-cover'
-								src={game.background_image}
-							/>
-						</div>
-						<div className='flex-grow ml-4'>
-							<h6 className='text-blue-900 font-semibold'>{game.name}</h6>
-							<p className='text-gray-500 font-xs'>
-								{moment(game.released).format("MMM DD, YYYY")}
-							</p>
-						</div>
+				<div className='flex items-center object-contain'>
+					<Image
+						className='rounded-lg'
+						src='/W2.0.webp'
+						alt='Ashika Island'
+						width={150}
+						height={500}
+					/>
+					<div className='ml-5'>
+						<p className='mb-0'>
+							<span className='font-semibold'>Name:</span> Ashika Island
+						</p>
+						<p className='mb-0'>
+							<span className='font-semibold'>Mode:</span> Resurgance
+						</p>
+						<p className='mb-0'>
+							<span className='font-semibold'>Season:</span> 2
+						</p>
 					</div>
-				))}
-				<p>
-					Powered by:{" "}
-					<Link href='https://rawg.io/apidocs' className='font-semibold'>
-						RAWG
-					</Link>
-				</p>
+				</div>
+				<div className='flex items-center mt-5 '>
+					<Image
+						className='rounded-lg'
+						src='/Warzone.webp'
+						alt='Al Mazrah'
+						width={150}
+						height={100}
+					/>
+					<div className='ml-5'>
+						<p className='mb-0'>
+							<span className='font-semibold'>Name:</span> Al Mazrah
+						</p>
+						<p className='mb-0'>
+							<span className='font-semibold'>Mode:</span> Main
+						</p>
+						<p className='mb-0'>
+							<span className='font-semibold'>Season:</span> 1 & 2
+						</p>
+					</div>
+				</div>
 			</div>
 		</>
 	);

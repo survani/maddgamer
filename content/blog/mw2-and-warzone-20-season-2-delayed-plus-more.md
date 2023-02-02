@@ -1,0 +1,29 @@
+---
+title: "MW2 and Warzone 2.0 Season 2 Delayed Plus More"
+description: "MW2 and Warzone 2.0 are due for a new season. Sadly, the delay will push many of the new addition to the game back a few weeks. Let's explore what will be added to Season 2."
+image: "/images/blog/warzone2.0.webp"
+date: "2023-01-19T16:56:47+06:00"
+featured: true
+postOfTheMonth: false
+author: "Alexander Hipp"
+categories: ["Warzone 2"]
+tags: ["Warzone 2", "Season 2"]
+---
+
+#### Season 2 Brings Major Updates
+
+If you are familiar with the Call of Duty franchise which I am guessing everyone knows the franchise you know that one of the best parts of the game is their new seasons.
+Season 2 should soon be released, but it looks like it has been delayed for a few weeks. The season patch will bring major updates not only to Warzone 2.0 but also to Call of Duty: Modern Warfare 2.
+
+Another thing to note is that the well-known Charlie Intel points out that this is the second year that Activision had to delay a season. Now let us talk about what will be included in the new season.
+
+Check out what will be added to season 2 so far:
+⁠
+
+- Smaller map for Warzone 2.0
+- Multiplayer - Ranked Play
+- Multiplayer - New Maps
+- Multiplayer - New Modes
+- New Weapons
+
+We will update this list as Infinity Ward reveals more details on the new additions.

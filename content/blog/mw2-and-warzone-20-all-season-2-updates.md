@@ -1,0 +1,63 @@
+---
+title: "MW2 and Warzone 2.0 All Season 2 Updates"
+description: "MaddGamer covers all the updates released and soon-to-be-released updates in Season 2. Stay updated with Season 2 of the Call of Duty franchise."
+image: "/images/blog/warzone.webp"
+date: "2023-01-20T16:56:47+06:00"
+featured: true
+postOfTheMonth: false
+author: "Robert Britt"
+categories: ["Modern Warfare 2 ", "Warzone 2", "DMZ"]
+tags: ["Modern Warfare 2 ", "Warzone 2 ", "DMZ"]
+---
+
+As you all are aware **Warzone 2.0** and **MW2 Season 2** have been delayed for a few weeks from the initial release date. Season 2 will bring a lot of new updates to both MW2 and Warzone 2.0.
+
+We will be covering all the updates for the incoming Season 2 in one article post. Instead of adding a small post on each update, we will add them all here. Since the new season will be delayed we will start with some pre-season 2 updates.
+
+#### Season 2 Updates
+
+##### Season 2 Launch Update - February 15, 2023 (What we know at the moment)
+
+- **Warzone 2.0**
+  - 1v1 in the Gulag
+  - Looting changes will be made. We will update this list once we get more info.
+  - Loot containers will now pop floating loot out onto the floor when a player gets eliminated.
+  - New Resurgence map.
+  - More lootable cash and Prices for items are being lowered.
+  - Hardcore is heading back to Modern Warfare 2.
+  - 3-Plate Vest at the start of the game.
+  - Different-sized Vests will no longer be lootable through the Warzone map.
+  - Will be able to plate while you burst through a door.
+  - Increased movement speed.
+  - More Buy Stations across the map and other Buy Stations adjusted.
+  - Adjustments for rewards you get for completing the Stronghold and Black sites.
+- **Multiplayer**
+  - All new smaller map.
+  - New maps.
+  - New modes.
+  - Five new weapons.
+  - re-implementing a brand new occlusion system for Audio improvements.
+  - Weapon balancing.
+  - Hardcore is back.
+- **DMZ**
+
+  - New missions.
+  - New Exclusion Zone.
+  - DMZ is getting enemy difficulty tuned.
+  - Improvements towards Spawn Points.
+  - More fixes for those who have been crashing.
+  - Overall Updates
+  - The audio will be tuned.
+  - UI Improvements.
+  - Navigation and Camo Menu.
+  - Polished Social tab.
+  - New "My Bundles" screen.
+  - Easy to now equip items from Battlepass, My Bundles, and Store.
+  - You will now be able to get previews for your Reticle and Gunsmith.
+  - Weapons are getting a further balance.
+  - Return of the Valentine's Day playlist.
+  - Ranked Play.
+
+    We will continue to update the list above with more details as soon as we get some intel on what more will be added to Season 2 and beyond.
+
+See the official Trello board for MW2

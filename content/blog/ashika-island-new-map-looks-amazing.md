@@ -1,0 +1,27 @@
+---
+title: "Ashika Island New Map Looks Amazing"
+description: "The all new Resurgence map called Ashika Island looks stunning and Beautiful"
+image: "/images/blog/season2.webp"
+date: "2023-02-02T16:56:47+06:00"
+featured: true
+postOfTheMonth: false
+author: "Robert Britt"
+categories: ["Warzone 2", "DMZ"]
+tags: ["Warzone 2", "DMZ", "Reveals"]
+---
+
+Resurgence is coming back! A new map will also make its way into Season 2 of Modern Warfare 2. “Isle of the Sea Lion” will be the new map for Resurgence and DMZ. Seven major points of interest will make the gameplay feel fast paced which many of us are looking forward too. Lets list them below.
+
+- Ōganikku Farms
+- Town Center
+- Beach Club
+- Tsuki Castle
+- Port Ashika
+- Residential
+- Shipwreck
+
+Check out the new map reveal below:
+
+<iframe width="860" height="515" src="https://www.youtube-nocookie.com/embed/y_Bn8Iw-iJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+[**CallOfDuty**](https://www.callofduty.com/blog/2023/02/call-of-duty-warzone-2-0-ashika-island-resurgence-map-deep-dive) hinted that they will have more intel for players on Feb 8th. We will have our eyes wide open and share the new intel with you all.

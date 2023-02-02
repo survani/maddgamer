@@ -19,13 +19,13 @@ const Seo = ({ post }) => {
 				url: "https://www.maddgamer.com/",
 				title: titles,
 				description:
-					"A video game news website covering all the latest news in the industry. Follow us for more!",
+					"Covering everything related to the Call of Duty franchise!",
 				images: [
 					{
 						url: post.featuredImage.url,
 						width: 1200,
 						height: 630,
-						alt: "MaddGamer Gaming News",
+						alt: "MaddGamer Call of Duty News",
 						type: "image/webp",
 					},
 				],

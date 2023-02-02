@@ -1,45 +1,36 @@
-import { Analytics } from "@vercel/analytics/react";
-import { NextSeo } from "next-seo";
-import React from "react";
-import { Layout } from "../components";
-import "../styles/globals.scss";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import { AppContext } from "@/components/UseContext";
+import "@/styles/bootstrap.scss";
+import "@/styles/globals.scss";
+import "@/styles/style.scss";
+import { DM_Sans } from "@next/font/google";
+import { useEffect, useState } from "react";
 
-function MyApp({ Component, pageProps }) {
-	return (
-		<Layout>
-			<NextSeo
-				title='MaddGamer'
-				titleTemplate='MaddGamer'
-				defaultTitle='MaddGamer'
-				description='Covering all the latest gaming news!'
-				canonical='https://www.maddgamer.com/'
-				openGraph={{
-					type: "website",
-					locale: "en_IE",
-					siteName: "MaddGamer",
-					url: "https://www.maddgamer.com/",
-					title: "MaddGamer",
-					description: "Covering all the latest gaming news!",
-					images: [
-						{
-							url: "/public/favicon.ico",
-							width: 800,
-							height: 600,
-							alt: "MaddGamer",
-						},
-					],
-					siteName: "MaddGamer",
-				}}
-				twitter={{
-					handle: "@maddgamernews",
-					site: "@maddgamernews",
-					cardType: "summary_large_image",
-				}}
-			/>
-			<Component {...pageProps} />
-			<Analytics />
-		</Layout>
-	);
+const dm_sans = DM_Sans({
+  weight: ["400", "500"],
+  display: "swap",
+  subsets: ["latin"],
+});
+
+export default function TushiApp({ Component, pageProps }) {
+  const [searchOpen, setSearchOpen] = useState();
+
+  useEffect(() => {
+    import("bootstrap/js/dist/dropdown");
+  }, []);
+
+  return (
+    <AppContext.Provider value={{ toggleSearch: [searchOpen, setSearchOpen] }}>
+      <main className={`${dm_sans.className} d-flex flex-column bg-body`}>
+        <Header />
+
+        <section className="mb-auto">
+          <Component {...pageProps} />
+        </section>
+
+        <Footer />
+      </main>
+    </AppContext.Provider>
+  );
 }
-
-export default MyApp;
