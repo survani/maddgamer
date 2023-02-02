@@ -5,6 +5,9 @@ const nextConfig = {
 		locales: ["en"],
 		defaultLocale: "en",
 	},
+	images: {
+		domains: ["pbs.twimg.com", "www.callofduty.com"],
+	},
 };
 
 module.exports = nextConfig;

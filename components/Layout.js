@@ -8,8 +8,8 @@ const Layout = ({
 	metaKeyword,
 	ogImage,
 	children,
-	post,
 }) => {
+	console.log(ogImage);
 	return (
 		<>
 			<Head>
