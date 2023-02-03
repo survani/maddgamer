@@ -57,6 +57,7 @@ We will be covering all the updates for the incoming Season 2 in one article pos
   - Weapons are getting a further balance.
   - Return of the Valentine's Day playlist.
   - Ranked Play.
+  - Progress wipe
 
     We will continue to update the list above with more details as soon as we get some intel on what more will be added to Season 2 and beyond.
 

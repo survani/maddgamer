@@ -2,7 +2,7 @@
 # Banner
 banner:
   title: "Latest News <br/> Updates and Tips"
-  subtitle: "Get all the latest intel on MW2, Warzone, DMZ"
+  subtitle: "Get all the latest FPS gaming news all in one place"
 
 # Featured Post
 featuredPost:

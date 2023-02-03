@@ -2,15 +2,29 @@
   "mainMenu": [
     {
       "name": "Modern Warfare 2",
-      "link": "/categories/modern-warfare-2"
+      "link": "/categories/modern-warfare-2",
+      "submenu": [
+        {
+          "name": "Warzone 2",
+          "link": "/categories/warzone-2"
+        },
+        {
+          "name": "DMZ",
+          "link": "/categories/dmz"
+        },
+        {
+          "name": "Multiplayer",
+          "link": "/categories/modern-warfare-2"
+        }
+      ]
       
     },
     {
-      "name": "Warzone 2",
-      "link": "/categories/warzone-2"
+      "name": "Apex Legends",
+      "link": "/categories/#"
     },
     {
-      "name": "DMZ",
+      "name": "Escape from Tarkov",
       "link": "/categories/dmz"
     }
   ],
