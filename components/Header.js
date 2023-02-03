@@ -27,6 +27,15 @@ const Header = () => {
 			}
 		});
 
+		const divs = document.querySelectorAll(".nav-link");
+
+		// search close when clicking on a link
+		divs.forEach((el) =>
+			el.addEventListener("click", (event) => {
+				setIsMenuOpen(false);
+			})
+		);
+
 		// add class to body
 		if ((isMenuOpen || searchOpen) === true) {
 			document.body.classList.add("noScroll");
