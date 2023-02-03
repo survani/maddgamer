@@ -7,9 +7,10 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { useContext, useEffect, useState } from "react";
 import BootstrapIcon from "./BootstrapIcon";
+import TopHeader from "./TopHeader";
 
 const Header = () => {
-	const { logo, logoText, socialLinks } = siteConfig;
+	const { logo, logoText, socialLinks, headerSubline } = siteConfig;
 
 	const { toggleSearch } = useContext(AppContext);
 	const [searchOpen, setSearchOpen] = toggleSearch;
@@ -75,6 +76,7 @@ const Header = () => {
 
 	return (
 		<>
+			<TopHeader />
 			<header className={`header-nav ${isMenuOpen ? "nav-open" : ""}`}>
 				<div className='container'>
 					<div className='row'>
@@ -114,6 +116,10 @@ const Header = () => {
 										priority
 									/>
 								</Link>
+
+								<p className='mx-5 text-white my-2 d-none d-lg-block fw-bold'>
+									{headerSubline}
+								</p>
 
 								<div className='d-block d-lg-none '>
 									<button
