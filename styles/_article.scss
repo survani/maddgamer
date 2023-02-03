@@ -1,3 +1,13 @@
 .post-external-img {
     width: 100%;
 }
+
+.article-title {
+    font-family: Inter,sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    @include mobile {
+        font-size: 1.5rem; 
+    }
+
+}

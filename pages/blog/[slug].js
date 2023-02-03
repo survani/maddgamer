@@ -53,7 +53,7 @@ export default function PostPage({
 					<div className='row justify-content-center'>
 						<div className=''>
 							<div className='section pb-0'>
-								<h1 className='mb-3 text-[50px]'>{title}</h1>
+								<h1 className='article-title mb-3 text-[50px]'>{title}</h1>
 								<p className='mb-4 pb-1 text-lg'>{description}</p>
 
 								<div className='post-author d-flex flex-wrap align-items-center'>
