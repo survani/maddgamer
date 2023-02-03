@@ -239,7 +239,7 @@ const Header = () => {
 									</ul>
 
 									<ul
-										className={`list-unstyled social-links d-flex flex-wrap d-lg-none align-items-center mt-auto w-100 animate`}
+										className={`list-unstyled social-links d-flex flex-wrap d-lg-none align-items-center mt-4 w-100 animate`}
 									>
 										<li
 											className='fw-medium flex-grow-1 flex-shrink-1 mb-1 text-white '
