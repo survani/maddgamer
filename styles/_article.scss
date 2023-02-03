@@ -3,11 +3,16 @@
 }
 
 .article-title {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-weight: 800;
     font-size: 4rem;
     @include mobile {
         font-size: 2.2rem; 
     }
 
+}
+
+a {
+    color: #1e3a8a;
+    font-weight: 700;
 }
