@@ -2,12 +2,12 @@
 # Banner
 banner:
   title: "Latest News <br/> Updates and Tips"
-  subtitle: "Get all the latest FPS gaming news all in one place"
+  subtitle: "Your #1 source for all your shooter game news."
 
 # Featured Post
 featuredPost:
-  title: "Featured News"
-  linkLabel: "Featured News"
+  title: "Featured"
+  linkLabel: "All Featured News"
 
 # All Categories
 allCategories:

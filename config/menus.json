@@ -1,31 +1,20 @@
 {
   "mainMenu": [
     {
-      "name": "Modern Warfare 2",
-      "link": "/categories/modern-warfare-2",
-      "submenu": [
-        {
-          "name": "Warzone 2",
-          "link": "/categories/warzone-2"
-        },
-        {
-          "name": "DMZ",
-          "link": "/categories/dmz"
-        },
-        {
-          "name": "Multiplayer",
-          "link": "/categories/modern-warfare-2"
-        }
-      ]
-      
+      "name": "News",
+      "link": "/categories/news" 
     },
     {
-      "name": "Apex Legends",
+      "name": "Reviews",
       "link": "/categories/#"
     },
     {
-      "name": "Escape from Tarkov",
-      "link": "/categories/dmz"
+      "name": "Articles",
+      "link": "/categories/articles"
+    },
+    {
+      "name": "Guides",
+      "link": "/categories/guides"
     }
   ],
   "footerMenu": [

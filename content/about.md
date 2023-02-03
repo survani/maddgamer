@@ -4,9 +4,9 @@ image: "/images/about-image.jpg"
 
 ### About Intro
 intro: |
-  ### MaddGamer is a First Person Shooter news site that covers everything related to FPS games. 
+  ### MaddGamer is a shooter game news site that covers everything related to shooter games. 
 
-  We started at the start of 2023. As we are a very young we hope to keep inovating MaddGamer so it can bring you all the latest FPS gaming news..
+  We started at the start of 2023. As we are a very young we hope to keep inovating MaddGamer so it can bring you all the latest shooter game news.
 
 ### Our Story
 ourStory:
