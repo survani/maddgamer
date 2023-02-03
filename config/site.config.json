@@ -1,6 +1,6 @@
 {
   "metaData": {
-    "title" : "MaddGamer | Shooter Video Games News",
+    "title" : "MaddGamer | Shooter Video Game News",
     "description" : "Your number one source for everything related to shooter games.",
     "author" : "MaddGamer",
     "keyword" : "callofduty, modernwarfare2, warzone2,DMZ,MaddGamer",
@@ -9,7 +9,7 @@
   "baseURL" : "https://maddgamer.com",
   "logo" : "/images/logo.webp",
   "logoText" : "MaddGamer",
-  "headerSubline": "[ Your #1 Shooter Video Games Source ]",
+  "headerSubline": "[ Your #1 Shooter Video Game Source ]",
   "favicon" : "/images/favicon.png",
   "postPerPage" : 6,
   "homeTwoPostPerPage" : 4,
