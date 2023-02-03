@@ -6,7 +6,11 @@ const nextConfig = {
 		defaultLocale: "en",
 	},
 	images: {
-		domains: ["pbs.twimg.com", "www.callofduty.com"],
+		domains: [
+			"pbs.twimg.com",
+			"www.callofduty.com",
+			"crossfirex.akamaized.net",
+		],
 	},
 };
 
