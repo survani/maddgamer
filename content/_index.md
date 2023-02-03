@@ -2,7 +2,7 @@
 # Banner
 banner:
   title: "Latest News <br/> Updates and Tips"
-  subtitle: "Your #1 source for all your shooter video games news."
+  subtitle: ""
 
 # Featured Post
 featuredPost:

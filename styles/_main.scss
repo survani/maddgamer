@@ -1,8 +1,11 @@
 .banner {
-  padding: 100px 0 120px;
+  padding: 35px 0 20px;
   .title {
+    font-size: 2rem;
+    font-weight: 800;
     position: relative;
     z-index: 1;
+
     .shape {
       position: absolute;
       top: -20px;

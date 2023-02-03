@@ -67,7 +67,7 @@ const Home = ({ homepage, posts, authors }) => {
 				<div className='container'>
 					<div className='row'>
 						<div className='col-12 position-relative text-center'>
-							<h1 className='title display-4 d-inline mb-0'>
+							<h1 className='title d-inline mb-0'>
 								<BannerShape />
 								<ParseMarkdown content={banner.title} />
 							</h1>
