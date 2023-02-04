@@ -9,7 +9,7 @@ const blogs = blogDirFiles.filter((f) => f.includes(".md"));
 
 export const getPosts = () => {
 	const returnDirFiles = blogs.map((filename) => {
-		const slug = filename.replace(".md", "");
+		const slug = filename.replace(".mdx", "");
 		const dirFileContents = fs.readFileSync(
 			path.join(blogDirectory, filename),
 			"utf8"

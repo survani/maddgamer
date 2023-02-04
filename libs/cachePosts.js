@@ -3,35 +3,35 @@ const path = require("path");
 const matter = require("gray-matter");
 
 function blogData() {
-  const blogDirectory = "content/blog";
-  const blogDirFiles = fs.readdirSync(path.join(blogDirectory));
-  const blogs = blogDirFiles.filter((f) => f.includes(".md"));
+	const blogDirectory = "content/blog";
+	const blogDirFiles = fs.readdirSync(path.join(blogDirectory));
+	const blogs = blogDirFiles.filter((f) => f.includes(".mdx"));
 
-  posts = blogs.map((filename) => {
-    const slug = filename.replace(".md", "");
-    const dirFileContents = fs.readFileSync(
-      path.join(blogDirectory, filename),
-      "utf8"
-    );
+	posts = blogs.map((filename) => {
+		const slug = filename.replace(".mdx", "");
+		const dirFileContents = fs.readFileSync(
+			path.join(blogDirectory, filename),
+			"utf8"
+		);
 
-    const { data: frontMatter } = matter(dirFileContents);
+		const { data: frontMatter } = matter(dirFileContents);
 
-    return {
-      slug,
-      frontMatter,
-    };
-  });
+		return {
+			slug,
+			frontMatter,
+		};
+	});
 
-  return `export const posts = ${JSON.stringify(posts)}`;
+	return `export const posts = ${JSON.stringify(posts)}`;
 }
 
 try {
-  fs.readdirSync("cache");
+	fs.readdirSync("cache");
 } catch (error) {
-  fs.mkdirSync("cache");
+	fs.mkdirSync("cache");
 }
 
 fs.writeFile("cache/data.js", blogData(), function (err) {
-  if (err) return console.log(err);
-  console.log("Blog Posts Cache Complete");
+	if (err) return console.log(err);
+	console.log("Blog Posts Cache Complete");
 });

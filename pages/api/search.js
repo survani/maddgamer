@@ -4,29 +4,29 @@ import matter from "gray-matter";
 import path from "path";
 
 export default (req, res) => {
-  let posts;
+	let posts;
 
-  if (process.env.NODE_ENV === "production") {
-    posts = require("../../cache/data").posts;
-  } else {
-    const blogDirFiles = fs.readdirSync(path.join("content/blog"));
-    const blogs = blogDirFiles.filter((f) => f.includes(".md"));
+	if (process.env.NODE_ENV === "production") {
+		posts = require("../../cache/data").posts;
+	} else {
+		const blogDirFiles = fs.readdirSync(path.join("content/blog"));
+		const blogs = blogDirFiles.filter((f) => f.includes(".mdx"));
 
-    posts = blogs.map((filename) => {
-      const slug = filename.replace(".md", "");
-      const dirFileContents = fs.readFileSync(
-        path.join("content/blog", filename),
-        "utf8"
-      );
+		posts = blogs.map((filename) => {
+			const slug = filename.replace(".mdx", "");
+			const dirFileContents = fs.readFileSync(
+				path.join("content/blog", filename),
+				"utf8"
+			);
 
-      const { data: frontMatter } = matter(dirFileContents);
+			const { data: frontMatter } = matter(dirFileContents);
 
-      return {
-        slug,
-        frontMatter,
-      };
-    });
-  }
+			return {
+				slug,
+				frontMatter,
+			};
+		});
+	}
 
-  res.status(200).json(JSON.stringify(posts));
+	res.status(200).json(JSON.stringify(posts));
 };

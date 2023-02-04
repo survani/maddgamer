@@ -1,6 +1,6 @@
 export const posts = [
 	{
-		slug: "ashika-island-new-map-looks-amazingx",
+		slug: "ashika-island-new-map-looks-amazing",
 		frontMatter: {
 			title: "Ashika Island New Map Looks Amazing",
 			description:
