@@ -10,7 +10,7 @@ const Post = ({
 	post: {
 		slug,
 		content,
-		frontMatter: { title, image, date, author, description },
+		frontMatter: { title, image, date, author, description, extraInfo },
 	},
 	authors,
 	compact,
@@ -21,6 +21,7 @@ const Post = ({
 			{!compact && (
 				<div className='post-image'>
 					<Link href={`/blog/${slug}`} className='d-block' title={title}>
+						<p className='extra-info-text-inner-article'>{extraInfo}</p>
 						<BlurImage
 							className='w-100 h-auto'
 							src={image}

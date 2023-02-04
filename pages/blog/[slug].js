@@ -27,8 +27,16 @@ export default function PostPage({
 	// Get Page Url
 	const pageUrl = `${siteConfig.baseURL.replace(/\/$|$/, "/")}blog/${slug}`;
 
-	const { title, author, date, image, description, tags, categories } =
-		frontMatter;
+	const {
+		title,
+		author,
+		date,
+		image,
+		description,
+		tags,
+		categories,
+		extraInfo,
+	} = frontMatter;
 
 	// Marked Options
 	marked.setOptions({
@@ -49,10 +57,13 @@ export default function PostPage({
 	return (
 		<Layout metaTitle={title} metaDescription={description} ogImage={image}>
 			<section className='bg-body'>
-				<div className='container'>
+				<div className='container test'>
 					<div className='row justify-content-center'>
 						<div className=''>
 							<div className='section pb-0'>
+								<div className='extra-info-container'>
+									<p className='extra-info-text mx-2'>{extraInfo}</p>
+								</div>
 								<h1 className='article-title mb-3 text-[50px]'>{title}</h1>
 								<p className='mb-4 pb-1 text-lg'>{description}</p>
 

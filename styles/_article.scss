@@ -6,6 +6,7 @@
     font-family: Roboto, sans-serif;
     font-weight: 800;
     font-size: 4rem;
+    padding: 1rem;
     @include mobile {
         font-size: 2.2rem; 
     }
@@ -14,6 +15,58 @@
     }
 
 }
+
+.extra-info-container {
+    display: flex;
+    &:after {
+        content: "";
+        height: 15vh;
+        width:60%;
+        position:absolute;
+        border: 1px solid #1e3a8a;
+        border-bottom: none;
+        border-right: none;
+        }
+    
+    
+    .extra-info-text {
+        color: white;
+        background-color: #1e3a8a;
+        font-family: 'Roboto', 'sans serif';
+        font-weight: 800;
+        text-align: center;
+        width: 150px;
+        padding: 0.3rem;
+        margin-left: -0px !important;
+        text-transform: uppercase;
+        @include mobile {
+            width: 140px;
+        font-size: 14px;
+        }
+    }
+}
+
+//post-card extra info text
+.extra-info-text-inner-article {
+    color: white;
+    background-color: #1e3a8a;
+    font-family: 'Roboto', 'sans serif';
+    font-weight: 800;
+    text-align: center;
+    width: 200px;
+    padding: 0.3rem;
+    margin-left: -0px !important;
+    text-transform: uppercase;
+    position: absolute;
+    @include mobile {
+        width: 140px;
+    font-size: 14px;
+    }
+}
+
+
+
+//global
 
 a {
     color: #1e3a8a;
