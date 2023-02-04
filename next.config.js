@@ -10,6 +10,7 @@ const nextConfig = {
 			"pbs.twimg.com",
 			"www.callofduty.com",
 			"crossfirex.akamaized.net",
+			"turtlerockstudios.com",
 		],
 	},
 };
