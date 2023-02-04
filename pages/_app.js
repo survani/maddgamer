@@ -8,29 +8,29 @@ import { DM_Sans } from "@next/font/google";
 import { useEffect, useState } from "react";
 
 const dm_sans = DM_Sans({
-  weight: ["400", "500"],
-  display: "swap",
-  subsets: ["latin"],
+	weight: ["400", "500"],
+	display: "swap",
+	subsets: ["latin"],
 });
 
 export default function TushiApp({ Component, pageProps }) {
-  const [searchOpen, setSearchOpen] = useState();
+	const [searchOpen, setSearchOpen] = useState();
 
-  useEffect(() => {
-    import("bootstrap/js/dist/dropdown");
-  }, []);
+	useEffect(() => {
+		import("bootstrap/js/dist/dropdown");
+	}, []);
 
-  return (
-    <AppContext.Provider value={{ toggleSearch: [searchOpen, setSearchOpen] }}>
-      <main className={`${dm_sans.className} d-flex flex-column bg-body`}>
-        <Header />
+	return (
+		<AppContext.Provider value={{ toggleSearch: [searchOpen, setSearchOpen] }}>
+			<main className={`${dm_sans.className} d-flex flex-column bg-body`}>
+				<Header />
 
-        <section className="mb-auto">
-          <Component {...pageProps} />
-        </section>
+				<section className='mb-auto'>
+					<Component {...pageProps} />
+				</section>
 
-        <Footer />
-      </main>
-    </AppContext.Provider>
-  );
+				<Footer />
+			</main>
+		</AppContext.Provider>
+	);
 }
