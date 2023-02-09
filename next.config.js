@@ -6,7 +6,7 @@ const nextConfig = {
 		defaultLocale: "en",
 	},
 	images: {
-		domains: ["cdn.cloudflare.steamstatic.com"],
+		domains: ["cdn.cloudflare.steamstatic.com", "i.ibb.co"],
 	},
 };
 
