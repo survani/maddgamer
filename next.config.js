@@ -6,12 +6,7 @@ const nextConfig = {
 		defaultLocale: "en",
 	},
 	images: {
-		domains: [
-			"pbs.twimg.com",
-			"www.callofduty.com",
-			"crossfirex.akamaized.net",
-			"turtlerockstudios.com",
-		],
+		domains: ["cdn.cloudflare.steamstatic.com"],
 	},
 };
 

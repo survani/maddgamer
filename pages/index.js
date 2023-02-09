@@ -2,6 +2,7 @@ import BlurImage from "@/components/BlurImage";
 import Layout from "@/components/Layout";
 import Pagination from "@/components/Pagination";
 import Post from "@/components/Post";
+import Sales from "@/components/Sales";
 import siteConfig from "@/config/site.config.json";
 import { getAuthors } from "@/libs/getAuthors";
 import { getPosts } from "@/libs/getPosts";
@@ -362,6 +363,7 @@ const Home = ({ homepage, posts, authors }) => {
 					</div>
 				</section>
 			))}
+			<Sales />
 		</Layout>
 	);
 };
